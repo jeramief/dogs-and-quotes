@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Dogs and Quotes</h1>
+			<h3 id="dog-name">A daily quote with a dog!</h3>
+
+		</header>
+
+		<section class="section-container">
+			<section class="column" id="top-column">
+				<section class="item">
+					<h3>Quote of the Day!</h3>
+					<p id="quote"></p>
+					<span id="author"></span>
+				</section>
+			</section>
+			<section class="column" id="bottom-column">
+				<section class="item">
+					<span>Choose your Breed!</span>
+				</section>
+				<section class="item">
+					<select class="breeds">
+						<option value="starter" selected>Choose Breed</option>
+					</select>
+					<button type="submit" id="newImg">Reload this Breed</button>
+				</section>
+				<section class="item">
+					<section class="img-container">
+						<section class="container">
+							<img src="" class="dog-img" alt="dog picture">
+						</section>
+					</section>
+				</section>
+			</section>
+		</section>
+
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
