@@ -11,7 +11,7 @@
   Uses JSON to fetch an API to get the dog image and a different API fetch to get the quote.
 </p>
 
-<h2>Lessons Learned:<h2>
+<h2>Lessons Learned:</h2>
 <p align="left">
   I'm looking to add a daily refresh only once a day for the quote but it's not complete, but I did learn to refresh automatically.
 </p>
